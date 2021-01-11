@@ -1,12 +1,12 @@
 <style media="screen">
 
-  .headimgleft{
-    width:100px;
-    height: 50px;
+  .headimageleft{
+    width: 165px;
+    height: 100px;
   }
 
   .headimgright{
-    width:165px;
+    width: 165px;
     height: 100px;
     float:right;
   }

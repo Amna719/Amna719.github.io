@@ -1,0 +1,196 @@
+<style media="screen">
+
+  .headimgleft{
+    width: 165px;
+    height: 100px;
+  }
+
+  .headimgright{
+    width:165px;
+    height: 100px;
+    float:right;
+  }
+  .title{
+    text-align: center;
+  }
+
+  .subtitle{
+    font-family: arial;
+    text-align: center;
+    color: gray;
+    font-style: italic;
+  }
+
+  .toDoBox{
+    border: 2px solid black;
+    background-color: pink;
+    color: white;
+    padding:5px;
+    height: 600px;
+  }
+
+  .topleftBox{
+    float: left;
+    width: 30%;
+  }
+
+  .image1{
+    border: 2px solid purple;
+    width: 100%;
+    margin-right: 10px;
+  }
+
+  .toprightBox{
+    float: right;
+    width: 60%;
+    padding: 15px;
+    font-size: 20px;
+  }
+
+  .bottomleftBox{
+    float: left;
+    padding: 15px;
+    width: 60%;
+    font-size: 20px;
+  }
+
+  .bottomrightBox{
+    float: right;
+    width: 30%
+  }
+  .image2{
+    border: 2px solid purple;
+    width: 100%;
+    margin-left: 10px;
+  }
+
+  .costTable{
+    border: 2px solid black;
+  }
+
+  .greenRow{
+    background-color: lightgreen;
+  }
+
+  .pinkBox{
+    background-color: lightpink;
+  }
+  .logotext{
+    display: flex;
+    /*justify-content: center;*/
+    align-items: center;
+    padding-left: 30px;
+    padding-bottom: 25px;
+    /*float: left;*/
+    text-align: center;
+  }
+  .imglogo{
+    width: 50px;
+  }
+
+  .text{
+    padding-left: 25px;
+    display: inline-block;
+    vertical-align: middle;
+  }
+
+  .nav{
+    list-style-type: none;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    /*background-color: lightblue;*/
+  }
+
+  .bar{
+    color: gray;
+    font-size: 1em;
+    display: inline;
+    padding: 5px;
+  }
+
+  .footer{
+    font-weight: bold;
+    font-size: 15px;
+    text-align: center;
+  }
+
+  .photos{
+    width: 30%;
+    height: auto;
+    float: left;
+    border: 2px solid black;
+  }
+
+  .imageBlock{
+    padding-left: 5%;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    display: flex;
+  }
+  .textBox{
+    float: left;
+    width: 30%;
+    display: inline-block;
+    text-align: center;
+    font-size: 22px;
+    border: 4px solid #4B73B4;
+    background-color: #F3EBD5;
+    margin-left: 2px;
+    margin-right: 2px;
+    padding-bottom: 2px;
+    align-self: center;
+  }
+
+  .contactlinks{
+    font-family: arial;
+    color: gray;
+    float: left;
+  }
+  .textcontact{
+    font-family: arial;
+    display: inline-block;
+    vertical-align: middle;
+  }
+  .contactlogo{
+    display: flex;
+    align-items: center;
+    /*padding-left: 30px;*/
+    text-align: center;
+  }
+  .conlogo{
+    width: 20px;
+  }
+  .contactform{
+    float: right;
+    width: 60%;
+    margin-right: 3%;
+
+  }
+  .inputs{
+    width: 45%;
+    height: 25px;
+    font-size: 15px;
+    margin-right: 2%;
+  }
+  .commentbox{
+    padding: 10px;
+    width: 95%;
+    height: 200px;
+    margin-right: 5%;
+    font-size: 15px;
+  }
+  .submitbutton{
+    float: right;
+    background-color: Black;
+    color: white;
+    width: 80px;
+    height: 50px;
+    font-size: 15px;
+    margin-right: 5%;
+    margin-top: 20px;
+
+  }
+
+
+</style>

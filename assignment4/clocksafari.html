@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Clock Animation</title>
+    <link rel="stylesheet" href="clock.css">
+    <style media="screen">
+      .clockBack{
+        position: relative;
+        background-image: url(clockback.png);
+        background-repeat:no-repeat;
+        background-size: contain;
+        background-position: center;
+        height: 800px;
+        width: 100%;
+        background-color: rgba(253, 216, 241, 1);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .center{
+        width: 4%;
+      }
+      .hour{
+        position: absolute;
+        width: 15%;
+        height: 12%;
+        transform-origin: left center;
+        margin-left: 8%;
+        margin-top: 0%;
+        animation-name: moveHour;
+        animation-duration: 10s;
+        animation-delay: 1s;
+        animation-fill-mode: forwards;
+        animation-timing-function: linear;
+      }
+
+      .minute{
+        position: absolute;
+        width: 20%;
+        height: 12%;
+        transform-origin: left center;
+        margin-left: 10%;
+        margin-top: 0%;
+        transform: rotate(-90deg);
+        animation-name: moveMinute;
+        animation-duration: 10s;
+        animation-delay: 1s;
+        animation-fill-mode: forwards;
+        animation-timing-function: linear;
+      }
+      .text{
+        position: absolute;
+        top: 92%;
+        left: 2%;
+        padding: 5px;
+        width: 20%;
+        font-style: italic;
+        font-family: comic sans ms;
+        font-size: 20px;
+        text-align: center;
+        background-color: rgba(185, 224, 254, 0.87);
+        color: rgba(160, 122, 255, 1);
+      }
+
+
+      @keyframes moveHour {
+      0% {translate(15%, 0%)}
+      100% {transform: rotate(30deg);}
+      }
+
+      @keyframes moveMinute {
+      0% {rotate(-90deg); translate(20%, 0%);}
+        100% {transform: rotate(270deg);}
+      }
+
+    </style>
+  </head>
+  <body>
+    <div class="clockBack">
+      <img class="hour" src="hand.png" alt="Hour hand">
+      <img class="minute" src="hand.png" alt="Minute hand">
+      <img class="center" src="circle.gif" alt="">
+      <div class="text">
+        By: Amna A
+      </div>
+    </div>
+
+  </body>
+</html>

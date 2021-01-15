@@ -1,0 +1,184 @@
+.mainpage{
+  background-color: #FBEAFA;
+  font-family: Georgia;
+  text-align: center;
+  padding: 2%;
+  float: left;
+  width: 100%;
+}
+.mainpage h1{
+  font-size: 50px;
+  color: #6D4697;
+}
+.mainpage h3{
+  font-style: italic;
+  font-size: 30px;
+  color: #163C8E;
+}
+.mainpage p{
+  font-size: 25px;
+  font-family: cursive;
+}
+.product1{
+  width: 30%;
+  float: left;
+  margin: 8%;
+  padding: 10px;
+}
+
+.product1 img{
+  width: 100%;
+}
+.product1 a{
+  background-color: #9867CD;
+  color: white;
+  font-size: 20px;
+  padding: 10px;
+  margin: 5px;
+  border-radius: 8px;
+  text-decoration: none;
+}
+
+.product2{
+  width: 30%;
+  float: left;
+  margin: 8%;
+  padding: 10px;
+}
+
+.product2 img{
+  width: 100%;
+}
+.product2 a{
+  background-color: #9867CD;
+  color: white;
+  font-size: 20px;
+  padding: 10px;
+  margin: 5px;
+  border-radius: 8px;
+  text-decoration: none;
+}
+
+.strawbanaModal{
+  position: fixed;
+  float: left;
+  padding: 2%;
+  top: 0px;
+  bottom: 0px;
+  right: 0px;
+  left: 0px;
+  background-color: rgba(239, 243, 165, 0.5);
+  opacity: 0;
+  pointer-events: none;
+}
+
+.strawbanaModal:target{
+  opacity: 1;
+  pointer-events: all;
+}
+
+.strawbanaDiscription{
+  width: 80%;
+  height: 600px;
+  position: relative;
+  background-color: lightpink;
+  margin: auto;
+  margin-top: 3%;
+  border: 5px solid red;
+  align-content: center;
+}
+
+
+.sbimage img{
+  width: 35%;
+  margin: 10px;
+  float: left;
+  align-self: center;
+}
+
+.sbdiscrip{
+  width: 50%;
+  float: right;
+  margin: 10px;
+  font-family: Georgia;
+}
+.sbdiscrip a{
+  float: right;
+  text-align: right;
+  font-size: 15px;
+}
+
+.sbdiscrip h2{
+  color: #642375;
+  font-size: 30px;
+  text-align: center;
+}
+.sbdiscrip h3{
+  font-size: 20px;
+  font-style: italic;
+  color: #154EC8;
+  text-align: center;
+}
+
+/* Berry Modal Window */
+
+.berryModal{
+  position: fixed;
+  float: left;
+  padding: 2%;
+  top: 0px;
+  bottom: 0px;
+  right: 0px;
+  left: 0px;
+  background-color: rgba(145, 68, 166, 0.5);
+  opacity: 0;
+  pointer-events: none;
+}
+
+.berryModal:target{
+  opacity: 1;
+  pointer-events: all;
+}
+
+.berryDiscription{
+  width: 80%;
+  height: 600px;
+  position: relative;
+  background-color: lightblue;
+  margin: auto;
+  margin-top: 3%;
+  border: 5px solid purple;
+  align-content: center;
+}
+
+
+.berryimage img{
+  width: 35%;
+  margin: 10px;
+  float: left;
+  align-self: center;
+}
+
+.berrydiscrip{
+  width: 50%;
+  float: right;
+  margin: 10px;
+  font-family: Georgia;
+}
+.berrydiscrip a{
+  float: right;
+  text-align: right;
+  font-size: 20px;
+}
+
+.berrydiscrip h2{
+  color: #642375;
+  font-size: 30px;
+  text-align: center;
+}
+.berrydiscrip h3{
+  font-size: 20px;
+  font-style: italic;
+  color: #154EC8;
+  text-align: center;
+}

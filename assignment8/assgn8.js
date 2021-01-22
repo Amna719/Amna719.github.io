@@ -84,12 +84,12 @@ let output;
 if (billValue < 30 || billValue > 300) {
     tip = billValue * 0.2;
     let total = billValue + tip;
-    output = `The bill was ${billValue} , the tip was ${tip}, and the total value ${total}`;
+    output = `The bill was ${billValue}, the tip was ${tip}, and the total value ${total}`;
     console.log(output);
 } else {
     tip = billValue * 0.15;
     let total = billValue + tip;
-    output = `The bill was ${billValue} , the tip was ${tip}, and the total value ${total}`;
+    output = `The bill was ${billValue}, the tip was ${tip}, and the total value ${total}`;
     console.log(output);
 }
 

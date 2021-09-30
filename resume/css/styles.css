@@ -1,14 +1,15 @@
 /*
 COLOR PALETTE
-https://coolors.co/006d77-83c5be-edf6f9-ffddd2-e29578
+https://coolors.co/006d77-83c5be-edf6f9-ffddd2-e29578 */
 
-#006D77 -Teal
-#83C5BE -LightGreen
-#EDF6F9 -Ice Blue
-#FFDDD2 -Peachy Pink
-#E29578 -Dark Salmon
+.body{
+    color: #006D77; 
+    color: #83C5BE;
+    color:#EDF6F9;
+    color: #FFDDD2;
+    color:#E29578;
+}
 
-*/
 
 
 
@@ -72,6 +73,43 @@ h3 {
 .divider > section:last-of-type {
     border-bottom: none;
 }
+
+/* Navigation Bar
+-------------------------------------*/
+.navbar{
+    padding: 1% 0;
+    font-size: 1.2em;
+    border: none;
+    background-color: rgba(0,0,0,0);
+}
+
+.navbar-default .navbar-nav li a{
+    color: #006D77;
+    font-weight: 500;
+}
+
+.navbar-default .navbar-nav li a:hover, .navbar-default .navbar-nav li{
+    color: #EDF6F9;
+    text-decoration: none;
+}
+
+.dropdown-item{
+    margin-left: 10px;
+}
+.dropdown .dropdown-menu .dropdown-item:hover{
+    color: #E29578;
+}
+#active{
+    color: #E29578;
+}
+
+.dropdown:hover .dropdown-menu{
+    display: block;
+}
+.dropdown-menu{
+    margin-top: 0;
+}
+
 
 /* Profile
 -------------------------------------*/
@@ -158,3 +196,5 @@ footer{
     padding: 15px;
     display: inline-block;
 }
+
+

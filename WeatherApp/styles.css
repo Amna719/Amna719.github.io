@@ -1,13 +1,19 @@
+body{
+    background-color: antiquewhite;
+}
 h1, h2, h3, span {
     margin: 0;
+    color: #023047;
 }
 
 h1{
     font-size: 16rem;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 h2{
     font-size: 3rem;
+    
 }
 
 h3{
@@ -18,18 +24,26 @@ span{
     font-size: 6rem;
 }
 #feels{
-    font-size: 1rem;
+    font-size: 1.3rem;
+}
+.feels{
+    font-size: 1.3rem;
+    color: #023047;
+}
+#icon{
+    width: 20%;
 }
 
 .container{
     max-width: 550px;
-    height: 100vh;
-    border: 1px solid black;
+    height: 90vh;
+    box-shadow: 4px 4px 10px 2px gray;
     margin: 0 auto;
     display: grid;
     grid-template-rows: 20% 80%;
     text-align: center;
     padding: 25px 5px;
+    font-family: 'caveat', cursive;
 }
 
 .degrees{

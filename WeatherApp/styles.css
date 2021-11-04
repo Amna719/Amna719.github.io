@@ -17,6 +17,9 @@ h3{
 span{
     font-size: 6rem;
 }
+#feels{
+    font-size: 1rem;
+}
 
 .container{
     max-width: 550px;

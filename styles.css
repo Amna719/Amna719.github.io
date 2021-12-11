@@ -1,143 +1,14 @@
-/* .body{
-    color: #8ecae6;
-    color: #219ebc;
-    color: #023047;
-    color: #ffb703;
-    color: #fb8500;
-} */
-
-/* 
-html, body{
-    height: 100%;
-    width: 100%;
-}
-
-.navbar{
-    padding: 1% 0;
-    font-size: 1.2em;
-    border: none;
-    background-color: rgba(0,0,0,0);
-}
-
-.navbar-default .navbar-nav li a{
-    color: #219ebc;
-}
-
-.navbar-default .navbar-nav li a:hover, .navbar-default .navbar-nav li a.active{
-    color: #fb8500;
-    text-decoration: none;
-}
-
-.dropdown-item{
-    margin-left: 10px;
-}
-
-.dropdown:hover .dropdown-menu{
-    display: block;
-}
-.dropdown-menu{
-    margin-top: 0;
-}
-
-#home{
-    background: url(mountains.jpeg) no-repeat center fixed;
-    display: table;
-    height: 100%;
-    position: relative;
-    width: 100%;
-    background-size: cover;
-}
-
-.landing-text{
-    display: table-cell;
-    text-align: center;
-    vertical-align: middle;
-}
-
-.landing-text h1{
-    font-size: 600%;
-    font-weight: 700;
-    font-family: 'caveat', cursive;
-}
-
-
-.btn{
-    background-color: #8ecae6;
-    color: #fb8500;
-}
-
-.padding{
-    padding: 80px 0;
-}
-
-footer{
-    width: 100%;
-    background-color: #023047;
-    padding: 5% 5% 10% 5%;
-    color: #8ecae6;
-}
- */
-
-
-/*                              PROJECTS PAGE STYLES                              */
-/* 
-body{
-    color: #006D77;
-    margin: 0;
-    padding: 0;
-    font-family: 'Montserrat', sans-serif;
-    background: #EDF6F9;
-}
-
-img {
-    width: 300px;
-}
-
-.projects{
-    
-}
-.projects a{
-    color:#E29578;
-
-}
-.projects .btn{
-    color:white;
-    background: #006D77;
-    text-decoration: none;
-    padding: 8px;
-    border-radius: 4px;
-    display: inline-block;
-}
-.projects .btn:hover{
-    background: rgba(0, 109, 119, 80%);
-}
-
-.project-item{
-    overflow: hidden;
-}
-
-.project-item img{
-    float: left;
-    margin-right: 20px;
-}
-
-.project-item h3{
-    margin-top: 0;
-} */
-
-
-
 /*
 COLOR PALETTE
 https://coolors.co/006d77-83c5be-edf6f9-ffddd2-e29578 */
 
-.body{
+/* .body{
     color: #006D77; 
     color: #83C5BE;
     color:#EDF6F9;
     color: #FFDDD2;
     color:#E29578;
-}
+} */
 
 
 

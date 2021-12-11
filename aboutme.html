@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amna's Resume</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat&family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+     <link rel="stylesheet" href="resume/css/styles.css">
+     <script>
+      $(document).ready(function(){
+          $(".dropdown").hover(function(){
+              var dropdownMenu = $(this).children(".dropdown-menu");
+              if(dropdownMenu.is(":visible")){
+                  dropdownMenu.parent().toggleClass("open");
+              }
+          });
+      });     
+      </script>
+  </head>
+  <body>
+    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+      <div class="container-fluid">
+          <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse-main">
+                  <span class="sr-only">Toggle navigation</span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+              </button>
+          </div>
+          <div class="collapse navbar-collapse" id="navbar-collapse-main">
+              <ul class="nav navbar-nav navbar-right">
+                  <li><a class="" href="https://amna719.github.io/">Home</a></li>
+                  <li><a class="" href="https://amna719.github.io/projects.html">Projects</a></li>
+                  <li><a href="https://amna719.github.io/aboutme.html">About</a></li>
+                  <li><a href="#">Contact</a></li>
+              </ul>
+          </div>
+      </div>
+  </nav>
+    <main>
+      <!-- ***********************  ABOUT / PROFILE  *********************** -->
+      <header>
+        <div class="content-wrap">
+          <h1>Amna Amen</h1>
+          <h2>Aspiring Software Engineer</h2>
+
+          <p>Hi! Welcome to my page. I am currently a student pursuing a B.S. Computer Science at Queens College. I aspire to become a front-end web developer. </p>
+          <p>Apart from Computer Science, I enjoy reading, trying new restaurants with my husband, and traveling</p>
+          <p>I'm glad to have you visit my journey!</p>
+        </div>
+      </header>
+
+      <!-- ********************  PROJECTS / PORTFOLIO  ********************* -->
+      <section class="projects">
+        <div class="content-wrap divider">
+        <h2>Featured Projects</h2>
+        <p>View selected projects below. More information can be found at <a href="https://amna719.github.io/">GitHub</a>.</p>
+
+        <!-- Copy the whole <section> block to add more projects. -->
+        <section class="project-item">
+          <img src="resume/images/NumGame.png" alt="Number Guessing Game Screenshot">
+          <h3>Number Guessing Game</h3>
+          <p>Created a simple number guessing game to implement HTML/CSS/JacaScript.</p>
+          <a class="btn" href="https://amna719.github.io/project3/project3.html" target="_blank">Guess a Number</a>
+        </section>
+        <section class="project-item">
+          <img src="resume/images/smoothies.JPG" alt="smoothies recipe webpage Screenshot">
+          <h3>Smoothie Recipes</h3>
+          <p>A webpage with recipes for two smoothies using HTML/CSS/JacaScript.</p>
+          <a class="btn" href="https://amna719.github.io/assignment5/assignment5.html" target="_blank">Make a Smoothie</a>
+        </section>
+        <section class="project-item">
+          <img src="resume/images/iceland.png" alt="Iceland webpage screenshot">
+          <h3>Explore Iceland</h3>
+          <p>Created a multi page web site to implement HTML/CSS/JacaScript on the activites awaiting in Iceland.</p>
+          <a class="btn" href="https://amna719.github.io/Project1/homepage.html" target="_blank">Visit Iceland</a>
+        </section>
+
+        <!-- End of Project block. -->
+        </div>
+      </section>
+
+      <!-- ***********************  WORK EXPERIENCE  *********************** -->
+      <section class="work-experience">
+        <div class="content-wrap item-details divider">
+          <h2>Work Experience</h2>
+          <p>See all of my projects <a href="https://amna719.github.io/projects.html">here</a>.</p>
+
+          <!-- Copy this whole <section> block to add more jobs. -->
+            <section class="job-item">
+              <div class="job-details">
+                <h3>CUNY Tech Prep</h3>
+                <p>Fellow, Software Development</p>
+                <p>June 2021-Present</p>
+              </div>
+              <div class="job-summary">
+                <p>Learn in-demand technologies like React, Node + Express, and PostgreSQL as well as industry best practices for design, implementation, and deployment such as MVC, version control with Git/GitHub, agile & Scrum with Trello and Slack, test driven development, and CI/CD</p>
+              </div>
+            </section>
+          <section class="job-item">
+            <div class="job-details">
+              <h3>Best Score Tutoring</h3>
+              <p>Privte Tutor</p>
+              <p>January 2019-Present</p>
+            </div>
+            <div class="job-summary">
+              <p>Prepare over 15 students for ELA, MAT, NYS Regents, SAT Prep</p>
+            <p>Responsibilities:</p>
+            <ul>
+              <li>Assisted students in grades K-12</li>
+              <li>Managed administration process of incoming students</li>
+              <li>Lead groups of tutors in various teaching methods</li>
+            </ul>
+            </div>
+          </section>
+        </div>
+      </section>
+        <!-- End of Job block. -->
+      </section>
+
+      <!-- ******************  EDUCATION & CERTIFICATIONS ****************** -->
+      <section class="education">
+          <div class="content-wrap item-details">
+          <h2>Education</h2>
+
+          <!-- Copy this whole <section> block to add more schools. -->
+          <section>
+            <h3>Queens College, CUNY - Queens, NY</h3>
+            <p>Macaulay Honors College, 2019-Present</p>
+            <p>Dean's List</p>
+          </section>
+          <section>
+            <h3>Crescent School - Hempstead, NY</h3>
+            <p>Honors HighSchool Diploma, 2019</p>
+          </section>
+          <!-- End of School block. -->
+        </div>
+      </section>
+
+      <!-- *****************  CONTACT INFO / SOCIAL MEDIA  ***************** -->
+      <footer>
+        <div class="content-wrap"></div>
+          <h2>Let's Keep in Touch!</h2>
+
+          <!-- Social media and contact links. Add or remove any networks. -->
+          <ul class="contact-list">
+            <li><a href="mailto:amnaamen13@gmail.com">amnaamen13@gmail.com</a></li>
+            <li><a href="https://amna719.github.io/" target="_blank">GitHub</a></li>
+            <li><a href="https://www.linkedin.com/in/amna-amen-a7a920205/" target="_blank">LinkedIn</a></li>
+          </ul>
+        </div>
+      </footer>
+    </main>
+  </body>
+</html>
